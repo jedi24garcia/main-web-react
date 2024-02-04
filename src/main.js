@@ -5,7 +5,7 @@ function Home() {
     return (
         <div className="MainTitle">
             <div> 
-                <h1 className='text-3xl'>Welcome to my personal website</h1>
+                <h1 className='text-9xl'>Welcome to my personal website</h1>
             </div>
         </div>
     );
