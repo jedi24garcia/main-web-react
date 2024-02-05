@@ -3,9 +3,9 @@ import React from 'react';
 
 function Home() {
     return (
-        <div className="MainTitle">
-            <div> 
-                <h1 className='text-9xl'>Welcome to my personal website</h1>
+        <div className='flex items-center justify-center h-screen'>
+            <div className='text-center'> 
+                <h1 className='text-7xl'>Welcome to my personal website</h1>
             </div>
         </div>
     );
