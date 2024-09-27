@@ -10,8 +10,7 @@ function Home() {
         <nav class='flex items-center space-x-10'>
           <ul class='flex space-x-10 font-serif'>
             <Link to="/About">About</Link>
-            <li class='hover:'>Portfolio</li>
-            <li class='hover:'>Contact</li>
+            <Link to="/Contact">Contact</Link>
           </ul>
         </nav>
         <nav class='flex items-center space-x-5'>
