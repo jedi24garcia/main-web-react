@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import consoleImage from './/images/consoles.jpg';
 
 function Home() {
@@ -7,7 +9,7 @@ function Home() {
       <header class="flex justify-between items-center p-20 bg-gradient-to-r from-neutral-400 to-gray-500">
         <nav class='flex items-center space-x-10'>
           <ul class='flex space-x-10 font-serif'>
-            <li class='hover:'>About</li>
+            <Link to="/About">About</Link>
             <li class='hover:'>Portfolio</li>
             <li class='hover:'>Contact</li>
           </ul>
@@ -66,6 +68,8 @@ function Home() {
           </p>
         </div>
       </div>
+      <footer class="flex justify-between items-center p-20 bg-gradient-to-r from-neutral-400 to-gray-500">
+      </footer>
     </div>
   );
 };
