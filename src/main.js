@@ -10,6 +10,7 @@ function Home() {
         <nav class='flex items-center space-x-10'>
           <ul class='flex space-x-10 font-serif'>
             <Link to="/About">About</Link>
+            <Link to="/Portfolio">Portfolio</Link>
             <Link to="/Contact">Contact</Link>
           </ul>
         </nav>
@@ -53,9 +54,8 @@ function Home() {
         </nav>
       </header>
       <div class='context flex p-10'>
-        <img src={consoleImage} alt='' />
-        <div class='item-body px-20 py-60'>
-          <div class='rounded w-50 border-4'>  
+        <img src={consoleImage} alt='' /> 
+          <div class='item-body px-20 py-60'>  
             <p class='font-serif'>"Lorem ipsum dolor sit amet, 
               consectetur adipiscing elit, sed do eiusmod tempor 
               incididunt ut labore et dolore magna aliqua. Ut enim 
@@ -65,9 +65,8 @@ function Home() {
               dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
               non proident, sunt in culpa qui officia deserunt mollit anim id 
               est laborum."
-            </p>
-          </div>  
-        </div>
+            </p>   
+          </div>
       </div>
       <footer class="flex justify-between items-center p-20 bg-gradient-to-r from-neutral-400 to-gray-500">
       </footer>

@@ -3,10 +3,8 @@ import React from 'react';
 function Contact() {
     return (
         <div>
-            <header class="flex justify-between items-center p-20 bg-gradient-to-r from-neutral-400 to-gray-500">
-                <h1>Contact</h1>
-            </header>
-            <div class='item-body px-20 py-60'>
+            <header class="flex justify-between items-center p-20 bg-gradient-to-r from-neutral-400 to-gray-500" />
+            <div class='item-body px-60 py-20'>
                 <p class='font-serif'>
                     Contact Details:<br />
                     sample@gmail.com<br />
