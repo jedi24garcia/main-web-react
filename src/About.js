@@ -1,11 +1,14 @@
 import React from 'react';
 
+import Home from './main';
+import FooterPage from './Footer';
+
 import consoleImage from './/images/consoles.jpg';
 
 function About() {
     return (
         <div>
-            <header class="flex justify-between items-center p-20 bg-gradient-to-r from-neutral-400 to-gray-500" />
+            <Home />            
             <div class='item-body px-60 py-20'>
                 <h1 class='font-serif text-5xl'>about</h1>
                 <p class='item-body py-5'>Hello there,<br />
@@ -18,6 +21,7 @@ function About() {
             <div class='flex justify-center items-center pt-12'>
                 <img src={consoleImage} alt='' />
             </div>
+            <FooterPage />
         </div>
     );
 };

@@ -1,15 +1,18 @@
 import React from 'react';
 
+import Home from './main';
+import FooterPage from './Footer';
+
 import './Portfolio.css';
 import consoleImage from './/images/consoles.jpg';
 
 function Portfolio() {
     return (
         <div>
-            <header class="flex justify-between items-center p-20 bg-gradient-to-r from-neutral-400 to-gray-500" />
-                <div class='item-body px-60 py-10'>
-                    <h1 class='font-serif text-5xl'>portfolio</h1>
-                </div>
+            <Home />
+            <div class='item-body px-60 py-10'>
+                <h1 class='font-serif text-5xl'>portfolio</h1>
+            </div>
                 <p class='item-body px-60'>I've had the privilege of exploring some incredible destinations, each one leveling<br />
                 its unique mark on my journey. From breathtaking landscapes to rich cultural experiences, traveling has been<br />
                 a source of inspiration and growth for me. Please enjoy a few of the unforgettable places I've visited.
@@ -27,6 +30,7 @@ function Portfolio() {
                         <img style={{ '--i': '320deg' }} src={consoleImage} alt="Portfolio project 9" />
                     </div>
                 </div>
+            <FooterPage />
         </div>
     );
 };

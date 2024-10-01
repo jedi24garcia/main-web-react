@@ -1,16 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import consoleImage from './/images/consoles.jpg';
-
 function Home() {
   return (
-    <div>
+    <>
       <header class="flex justify-between items-center p-20 bg-gradient-to-r from-neutral-400 to-gray-500">
         <nav class='flex items-center space-x-10'>
           <ul class='flex space-x-10 font-serif'>
-            <Link to="/About">About</Link>
+            <Link to="/HomePage">Home</Link>
             <Link to="/Portfolio">Portfolio</Link>
+            <Link to="/About">About</Link>
             <Link to="/Contact">Contact</Link>
           </ul>
         </nav>
@@ -53,24 +52,7 @@ function Home() {
           </a>
         </nav>
       </header>
-      <div class='context flex p-10'>
-        <img src={consoleImage} alt='' /> 
-          <div class='item-body px-20 py-60'>  
-            <p class='font-serif'>"Lorem ipsum dolor sit amet, 
-              consectetur adipiscing elit, sed do eiusmod tempor 
-              incididunt ut labore et dolore magna aliqua. Ut enim 
-              ad minim veniam, quis nostrud exercitation ullamco 
-              laboris nisi ut aliquip ex ea commodo consequat. Duis aute 
-              irure dolor in reprehenderit in voluptate velit esse cillum 
-              dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
-              non proident, sunt in culpa qui officia deserunt mollit anim id 
-              est laborum."
-            </p>   
-          </div>
-      </div>
-      <footer class="flex justify-between items-center p-20 bg-gradient-to-r from-neutral-400 to-gray-500">
-      </footer>
-    </div>
+    </>
   );
 };
 
