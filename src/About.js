@@ -18,9 +18,6 @@ function About() {
             <div class='flex justify-center items-center pt-12'>
                 <img src={consoleImage} alt='' />
             </div>
-            <div>
-                <img class='h-48 px-20 py-10' src={consoleImage} alt='' />
-            </div>
         </div>
     );
 };
