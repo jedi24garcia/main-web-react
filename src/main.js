@@ -7,15 +7,15 @@ function Home() {
       <header className="flex justify-between items-center p-20 bg-gradient-to-r from-neutral-400 to-gray-500">
         <nav className='flex items-center space-x-10'>
           <ul className='flex space-x-10 font-serif'>
-            <Link to="/HomePage">Home</Link>
-            <Link to="/Portfolio">Portfolio</Link>
-            <Link to="/About">About</Link>
-            <Link to="/Contact">Contact</Link>
+            <Link to="/HomePage" className="hover:scale-110">Home</Link>
+            <Link to="/Portfolio" className="hover:scale-110">Portfolio</Link>
+            <Link to="/About" className="hover:scale-110">About</Link>
+            <Link to="/Contact" className="hover:scale-110">Contact</Link>
           </ul>
         </nav>
         <nav className='flex items-center space-x-5'>
           {/* GitHub */}
-          <a href="https://github.com/jedi24garcia">
+          <a href="https://github.com/jedi24garcia" className="hover:scale-110" target="https://github.com/jedi24garcia">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-7 w-7"
@@ -27,7 +27,7 @@ function Home() {
             </svg>
           </a>
           {/* Instagram */}
-          <a href="https://www.instagram.com/llouisggarcia/"> 
+          <a href="https://www.instagram.com/llouisggarcia/" className="hover:scale-110" target="https://www.instagram.com/llouisggarcia/"> 
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-7 w-7"
@@ -39,7 +39,7 @@ function Home() {
             </svg>
           </a>
           {/* LinkedIn */}
-          <a href="https://www.linkedin.com/in/giodyll-garcia-2020b5190/">  
+          <a href="https://www.linkedin.com/in/giodyll-garcia-2020b5190/" className="hover:scale-110" target="https://www.linkedin.com/in/giodyll-garcia-2020b5190/">  
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-7 w-7"

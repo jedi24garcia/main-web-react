@@ -3,7 +3,7 @@ import React from 'react';
 import Home from './main';
 import FooterPage from './Footer';
 
-import consoleImage from './/images/consoles.jpg';
+import aboutImage from './/images/Image.jpg';
 
 function About() {
     return (
@@ -19,7 +19,7 @@ function About() {
                 </p>
             </div>
             <div className='flex justify-center items-center mb-12'>
-                <img src={consoleImage} alt='' />
+                <img src={aboutImage} className="object-cover opacity-75 rounded-lg hover:scale-110 transform transition duration-500" style={{ width: '500px' }} alt='' />
             </div>
             <FooterPage />
         </div>
