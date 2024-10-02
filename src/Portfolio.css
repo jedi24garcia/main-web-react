@@ -9,7 +9,7 @@
 }
 .imageStyle>img {
     position: absolute; left: 0; top: 0; width: 190px;
-    border-radius: 10px; aspect-ratio: 4 / 5;
+    border-radius: 10px; aspect-ratio: 4 / 7;
     transition: transform 2s ease-in-out;
     transform: rotateY(var(--i)) translate(288px);
 }
