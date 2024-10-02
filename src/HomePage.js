@@ -9,10 +9,10 @@ function HomePage() {
     return (
         <div>
             <Home />
-                <div class='context flex p-10'>
+                <div className='context flex p-10'>
                     <img src={consoleImage} alt='' /> 
-                    <div class='item-body px-20 py-60'>  
-                        <p class='font-serif'>"Lorem ipsum dolor sit amet, 
+                    <div className='item-body px-20 py-60'>  
+                        <p className='font-serif'>"Lorem ipsum dolor sit amet, 
                             consectetur adipiscing elit, sed do eiusmod tempor 
                             incididunt ut labore et dolore magna aliqua. Ut enim 
                             ad minim veniam, quis nostrud exercitation ullamco 

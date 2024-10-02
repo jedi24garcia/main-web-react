@@ -4,21 +4,21 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <>
-      <header class="flex justify-between items-center p-20 bg-gradient-to-r from-neutral-400 to-gray-500">
-        <nav class='flex items-center space-x-10'>
-          <ul class='flex space-x-10 font-serif'>
+      <header className="flex justify-between items-center p-20 bg-gradient-to-r from-neutral-400 to-gray-500">
+        <nav className='flex items-center space-x-10'>
+          <ul className='flex space-x-10 font-serif'>
             <Link to="/HomePage">Home</Link>
             <Link to="/Portfolio">Portfolio</Link>
             <Link to="/About">About</Link>
             <Link to="/Contact">Contact</Link>
           </ul>
         </nav>
-        <nav class='flex items-center space-x-5'>
+        <nav className='flex items-center space-x-5'>
           {/* GitHub */}
           <a href="https://github.com/jedi24garcia">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-7 w-7"
+              className="h-7 w-7"
               fill="currentColor"
               style={{ color: "#333" }}
               viewBox="0 0 24 24"
@@ -30,7 +30,7 @@ function Home() {
           <a href="https://www.instagram.com/llouisggarcia/"> 
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-7 w-7"
+              className="h-7 w-7"
               fill="currentColor"
               style={{ color: "#c13584" }}
               viewBox="0 0 24 24"
@@ -42,7 +42,7 @@ function Home() {
           <a href="https://www.linkedin.com/in/giodyll-garcia-2020b5190/">  
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-7 w-7"
+              className="h-7 w-7"
               fill="currentColor"
               style={{ color: "#0077b5" }}
               viewBox="0 0 24 24"
