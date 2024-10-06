@@ -3,15 +3,15 @@ import React from 'react';
 import Home from './main';
 import FooterPage from './Footer';
 
-import consoleImage from './/images/consoles.jpg';
+import profileImage from './/images/profile.jpg';
 
 function HomePage() {
     return (
         <div>
             <Home />
-                <div className='context flex p-10'>
-                    <img src={consoleImage} alt='' /> 
-                    <div className='item-body px-20 py-60'>  
+                <div className='context flex p-10 bg-gradient-to-r from-purple-900 to-purple-500'>
+                    <img src={profileImage} className="object-cover rounded-lg hover:scale-110 transform transition duration-500" style={{ width: '400px' }} alt='' /> 
+                    <div className='item-body px-20'>  
                         <p className='font-serif'>"Lorem ipsum dolor sit amet, 
                             consectetur adipiscing elit, sed do eiusmod tempor 
                             incididunt ut labore et dolore magna aliqua. Ut enim 
@@ -23,7 +23,7 @@ function HomePage() {
                             est laborum."
                         </p>   
                     </div>
-                </div>
+                </div>   
             <FooterPage />
         </div>
     );

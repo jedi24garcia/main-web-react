@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <>
-      <header className="flex justify-between items-center p-20 bg-gradient-to-r from-neutral-400 to-black-500">
+      <header className="flex justify-between items-center p-20 bg-violet-950">
         <nav className='flex items-center space-x-10'>
           <ul className='flex space-x-10 font-serif'>
             <Link to="/HomePage" className="hover:scale-110">Home</Link>

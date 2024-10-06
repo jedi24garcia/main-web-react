@@ -9,7 +9,7 @@ import aboutImage from './/images/Image.jpg';
 
 function Portfolio() {
     return (
-        <div>
+        <div className='bg-gradient-to-r from-purple-900 to-purple-500'>
             <Home />
             <div className='item-body px-60 py-10'>
                 <h1 className='font-serif text-5xl'>portfolio</h1>
@@ -31,7 +31,7 @@ function Portfolio() {
                         <img style={{ '--i': '320deg' }} src={aboutImage} alt="Portfolio project 9" />
                     </div>
                 </div>
-                    <div className='item-body px-60 py-10'>
+                <div className='item-body px-60 py-10'>
                     <h1 className='font-serif text-5xl'>projects</h1>
                 </div>
                 <p className='item-body px-60'>Below are some of my personal projects, each reflecting my passion for creativity<br />
@@ -41,11 +41,11 @@ function Portfolio() {
                 <div className='flex justify-between px-60 py-10'>
                     <section className='item-body w-1/2 px-5'>
                         <h2>Project 1</h2>
-                        <img src={consoleImage} alt='' />
+                        <img src={consoleImage} className="object-cover rounded-lg hover:scale-110 transform transition duration-500" alt='' />
                     </section>
                     <section className='item-body w-1/2 px-5'>
                         <h2>Project 2</h2>
-                        <img src={consoleImage} alt='' />
+                        <img src={consoleImage} className="object-cover rounded-lg hover:scale-110 transform transition duration-500" alt='' />
                     </section>
                 </div>
             <FooterPage />

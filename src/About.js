@@ -7,7 +7,7 @@ import aboutImage from './/images/Image.jpg';
 
 function About() {
     return (
-        <div>
+        <div className='bg-gradient-to-r from-purple-900 to-purple-500'>
             <Home />            
             <div className='item-body px-60 py-10'>
                 <h1 className='font-serif text-5xl'>about</h1>
