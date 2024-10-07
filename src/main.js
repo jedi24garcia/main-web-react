@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <>
-      <header className="flex justify-between items-center p-20 bg-violet-950">
+      <header className="flex justify-between items-center p-20 bg-sky-950 border-b-4 border-cyan-400">
         <nav className='flex items-center space-x-10'>
-          <ul className='flex space-x-10 font-serif'>
+          <ul className='flex space-x-40 font-tr2n font-extrabold'>
             <Link to="/HomePage" className="hover:scale-110">Home</Link>
             <Link to="/Portfolio" className="hover:scale-110">Portfolio</Link>
             <Link to="/About" className="hover:scale-110">About</Link>

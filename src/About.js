@@ -7,11 +7,11 @@ import aboutImage from './/images/Image.jpg';
 
 function About() {
     return (
-        <div className='bg-gradient-to-r from-purple-900 to-purple-500'>
+        <div className='bg-sky-900'>
             <Home />            
             <div className='item-body px-60 py-10'>
-                <h1 className='font-serif text-5xl'>about</h1>
-                <p className='item-body py-5'>Hello there,<br />
+                <h1 className='mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>about</h1>
+                <p className='item-body py-5 font-tr2n font-extrabold'>Hello there,<br />
                     Just a dedicated programmer living in Wellington, New Zealand.<br />
                     Beyond of the world of coding, I love to explore new places and cultures,<br />
                     which combines my love for traveling with a curiosity of learning.<br />
@@ -19,7 +19,7 @@ function About() {
                 </p>
             </div>
             <div className='flex justify-center items-center mb-12'>
-                <img src={aboutImage} className="object-cover opacity-75 rounded-lg hover:scale-110 transform transition duration-500" style={{ width: '500px' }} alt='' />
+                <img src={aboutImage} className="object-cover opacity-75 rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" style={{ width: '500px' }} alt='' />
             </div>
             <FooterPage />
         </div>

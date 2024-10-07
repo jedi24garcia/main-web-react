@@ -12,6 +12,8 @@ code {
     monospace;
 } */
 
+@import './Styles/fonts.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

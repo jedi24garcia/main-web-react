@@ -9,10 +9,10 @@ function HomePage() {
     return (
         <div>
             <Home />
-                <div className='context flex p-10 bg-gradient-to-r from-purple-900 to-purple-500'>
-                    <img src={profileImage} className="object-cover rounded-lg hover:scale-110 transform transition duration-500" style={{ width: '400px' }} alt='' /> 
+                <div className='context flex p-10 bg-sky-900'>
+                    <img src={profileImage} className="object-cover rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" style={{ width: '400px' }} alt='' /> 
                     <div className='item-body px-20'>  
-                        <p className='font-serif'>"Lorem ipsum dolor sit amet, 
+                        <p className='font-tr2n font-extrabold'>"Lorem ipsum dolor sit amet, 
                             consectetur adipiscing elit, sed do eiusmod tempor 
                             incididunt ut labore et dolore magna aliqua. Ut enim 
                             ad minim veniam, quis nostrud exercitation ullamco 
