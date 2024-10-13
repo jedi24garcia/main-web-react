@@ -40,11 +40,11 @@ function Portfolio() {
                 </p>
                 <div className='flex justify-between px-60 py-10'>
                     <section className='item-body w-1/2 px-5'>
-                        <h2>Project 1</h2>
+                        <h2 className='mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white'>Project 1</h2>
                         <img src={consoleImage} className="object-cover rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" alt='' />
                     </section>
                     <section className='item-body w-1/2 px-5'>
-                        <h2>Project 2</h2>
+                        <h2 className='mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white'>Project 2</h2>
                         <img src={consoleImage} className="object-cover rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" alt='' />
                     </section>
                 </div>
