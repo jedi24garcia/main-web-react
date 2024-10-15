@@ -21,13 +21,13 @@ function Portfolio() {
                 <div className='scene'>
                     <div className='imageStyle'>
                         <img style={{ '--i': '000deg' }} src={aboutImage} alt="Portfolio project 1" />
-                        <img style={{ '--i': '040deg' }} src={consoleImage} alt="Portfolio project 2" />
+                        <img style={{ '--i': '040deg' }} src={aboutImage} alt="Portfolio project 2" />
                         <img style={{ '--i': '080deg' }} src={aboutImage} alt="Portfolio project 3" />
-                        <img style={{ '--i': '120deg' }} src={consoleImage} alt="Portfolio project 4" />
+                        <img style={{ '--i': '120deg' }} src={aboutImage} alt="Portfolio project 4" />
                         <img style={{ '--i': '160deg' }} src={aboutImage} alt="Portfolio project 5" />
-                        <img style={{ '--i': '200deg' }} src={consoleImage} alt="Portfolio project 6" />
+                        <img style={{ '--i': '200deg' }} src={aboutImage} alt="Portfolio project 6" />
                         <img style={{ '--i': '240deg' }} src={aboutImage} alt="Portfolio project 7" />
-                        <img style={{ '--i': '280deg' }} src={consoleImage} alt="Portfolio project 8" />
+                        <img style={{ '--i': '280deg' }} src={aboutImage} alt="Portfolio project 8" />
                         <img style={{ '--i': '320deg' }} src={aboutImage} alt="Portfolio project 9" />
                     </div>
                 </div>
