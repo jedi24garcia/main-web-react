@@ -6,6 +6,7 @@ import FooterPage from './Footer';
 import './Portfolio.css';
 import consoleImage from './/images/consoles.jpg';
 import aboutImage from './/images/Image.jpg';
+import firstProject from './/images/mainbg.webp';
 
 function Portfolio() {
     return (
@@ -41,7 +42,10 @@ function Portfolio() {
                 <div className='flex justify-between px-60 py-10'>
                     <section className='item-body w-1/2 px-5'>
                         <h2 className='mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white'>Project 1</h2>
-                        <img src={consoleImage} className="object-cover rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" alt='' />
+                        <a href='https://github.com/jedi24garcia/Fitness-App/tree/master' rel=''>
+                            <img src={firstProject} className="object-cover rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" alt='' />
+                        </a>
+                        <p className='py-10 font-tr2n font-extrabold'>This is a mobile application to guide individuals who are just starting out at the gym!</p>
                     </section>
                     <section className='item-body w-1/2 px-5'>
                         <h2 className='mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white'>Project 2</h2>
