@@ -5,7 +5,7 @@ import FooterPage from './Footer';
 
 import './Portfolio.css';
 import consoleImage from './/images/consoles.jpg';
-import aboutImage from './/images/Image.jpg';
+import cookImage from './/images/Image.jpg';
 import boholImage from './/images/Bohol.jpg';
 import carImage from './/images/Car.jpg';
 import makaraImage from './/images/Makara.jpg';
@@ -29,7 +29,7 @@ function Portfolio() {
                 </p> 
                 <div className='scene'>
                     <div className='imageStyle'>
-                        <img style={{ '--i': '000deg' }} src={aboutImage} alt="Portfolio project 1" />
+                        <img style={{ '--i': '000deg' }} src={cookImage} alt="Portfolio project 1" />
                         <img style={{ '--i': '040deg' }} src={boholImage} alt="Portfolio project 2" />
                         <img style={{ '--i': '080deg' }} src={carImage} alt="Portfolio project 3" />
                         <img style={{ '--i': '120deg' }} src={makaraImage} alt="Portfolio project 4" />
