@@ -19,18 +19,20 @@ function Portfolio() {
             </p>
             <div className='flex justify-between px-60 py-10'>
                 <section className='item-body w-1/2 px-5'>
-                    <h2 className='mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white'>Project 1</h2>
+                    <h2 className='mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white'>FitnessMate App</h2>
                     <a href='https://github.com/jedi24garcia/Fitness-App/tree/master' rel=''>
                         <img src={firstProject} className="w-full aspect-video object-cover rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" alt='' />
                     </a>
                     <p className='py-10 font-tr2n font-extrabold'>This is a mobile application using React-Native to guide individuals who are just starting out at the gym!</p>
                 </section>
                 <section className='item-body w-1/2 px-5'>
-                    <h2 className='mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white'>Project 2</h2>
-                    <a href='https://github.com/jedi24garcia/robotech' rel=''>
+                    <h2 className='mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white'>Robotech</h2>
+                    <a href='https://github.com/jedi24garcia/robotech/blob/master/airobo/self.py' rel=''>
                         <img src={consoleImage} className="w-full aspect-video object-cover rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" alt='' />
                     </a>
-                    <p className='py-10 font-tr2n font-extrabold'>A Python program that lets the user use their voice to open a web browser. When a user say something like 'open Google' or 'open Youtube,' it listens, recognizes the command, and opens up the browser to the website they've asked for.</p>
+                    <p className='py-10 font-tr2n font-extrabold'>A Python program that lets the user use their voice to open a web browser. When a user say something like 'open Google' or 'open Youtube,' it listens, recognizes the command, and opens up the browser to the website they've asked for. It is still a work
+                        in progress.
+                    </p>
                 </section>
             </div>
             <FooterPage />
