@@ -35,4 +35,21 @@ function Contact() {
     );
 };
 
+const handleSubmit = async (e) => {
+    e.preventDefault();
+    const response = await fetch('formspree here', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email, phone, message }),
+    });
+      
+    if (response.ok) {
+        alert('Form Submitted');
+    } else {
+        alert('Failed to submit form');
+    }
+};
+
 export default Contact;
