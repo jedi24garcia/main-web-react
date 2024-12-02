@@ -3,11 +3,21 @@ import React from 'react';
 import Home from './main';
 import FooterPage from './Footer';
 
-function Contact() {
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        console.log('Form Submitted');
-    };
+const handleSubmit = async (e) => {
+    e.preventDefault();
+    const response = await fetch('formspree here', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name, email, phone, message }),
+    });
+      
+    if (response.ok) {
+        alert('Form Submitted');
+    } else {
+        alert('Failed to submit form');
+    }
     
     return (       
         <div className='bg-sky-900'>
@@ -33,23 +43,6 @@ function Contact() {
             <FooterPage />
         </div>
     );
-};
-
-const handleSubmit = async (e) => {
-    e.preventDefault();
-    const response = await fetch('formspree here', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ name, email, phone, message }),
-    });
-      
-    if (response.ok) {
-        alert('Form Submitted');
-    } else {
-        alert('Failed to submit form');
-    }
 };
 
 export default Contact;
