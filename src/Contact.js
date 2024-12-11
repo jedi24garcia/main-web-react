@@ -1,11 +1,14 @@
 import React from 'react';
-import { useForm } from '@formspree/react';
+import { useForm, ValidationError } from '@formspree/react';
 
 import Home from './main';
 import FooterPage from './Footer';
 
-function SignupForm() {
-    const [state, handleSubmit] = useForm('signupForm');
+function ContactForm() {
+    const [state, handleSubmit] = useForm('mdkovypl');
+    if (state.succeeded) {
+        return <p>Thanks for the email. I will get back to you as soon as possible!</p>;
+    }
 
     return (
         <div className="bg-sky-900">
@@ -35,6 +38,11 @@ function SignupForm() {
                             required 
                         />
                     </div>
+                    <ValidationError
+                        prefix="Email"
+                        field="email"
+                        errors={state.errors}
+                    />
                     <div className="sm:col-span-2">
                         <label htmlFor="message" className="block mb-2 font-tr2n font-extrabold">Your message</label>
                         <textarea 
@@ -60,6 +68,4 @@ function SignupForm() {
     );
 };
 
-// function not working but no errors so far. Need to fix.
-
-export default SignupForm;
+export default ContactForm;
