@@ -28,7 +28,7 @@ function ContactForm() {
                         />
                     </div>
                     <div>
-                        <label htmlFor="email" className="block mb-2 font-tr2n font-extrabold">Your email</label>
+                        <label htmlFor="email" className="block mb-2 font-tr2n">Your email</label>
                         <input 
                             type="email" 
                             id="email" 
@@ -44,7 +44,7 @@ function ContactForm() {
                         errors={state.errors}
                     />
                     <div className="sm:col-span-2">
-                        <label htmlFor="message" className="block mb-2 font-tr2n font-extrabold">Your message</label>
+                        <label htmlFor="message" className="block mb-2 font-tr2n">Your message</label>
                         <textarea 
                             id="message" 
                             name="message" 

@@ -21,7 +21,7 @@ function About() {
             <Home />            
             <div className='item-body px-60 py-10'>
                 <h1 className='mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>about</h1>
-                <p className='item-body py-5 font-tr2n font-extrabold'>Hello there,<br />
+                <p className='item-body py-5 font-tr2n'>Hello there,<br />
                     A dedicated programmer living in Auckland, New Zealand.<br />
                     Beyond of the world of coding, I love to explore new places and cultures,<br />
                     which combines my love for traveling with a curiosity of learning.<br />
@@ -31,7 +31,7 @@ function About() {
             <div className='flex justify-center items-center mb-12'>
                 <img src={aboutImage} className="object-cover opacity-75 rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" style={{ width: '400px' }} alt='' />
             </div>
-            <p className='item-body px-60 font-tr2n font-extrabold'>I've had the privilege of exploring some incredible destinations, each one leveling<br />
+            <p className='item-body px-60 font-tr2n'>I've had the privilege of exploring some incredible destinations, each one leveling<br />
                 its unique mark on my journey. From breathtaking landscapes to rich cultural experiences, traveling has been<br />
                 a source of inspiration and growth for me. Please enjoy a few of the unforgettable places I've visited.
             </p> 
