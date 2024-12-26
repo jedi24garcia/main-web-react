@@ -32,7 +32,7 @@ function About() {
                 <img src={aboutImage} className="object-cover opacity-75 rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" style={{ width: '400px' }} alt='' />
             </div>
             <p className='item-body px-60 font-tr2n'>I've had the privilege of exploring some incredible destinations, each one leveling<br />
-                its unique mark on my journey. From breathtaking landscapes to rich cultural experiences, traveling has been<br />
+                its unique mark on my journey. From breathtaking landscapes to rich cultural experiences, traveling has been
                 a source of inspiration and growth for me. Please enjoy a few of the unforgettable places I've visited.
             </p> 
             <div className='scene'>
