@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <>
-      <header className="flex justify-between items-center p-20 bg-sky-950 border-b-4 border-cyan-400">
+      <header className="flex justify-between items-center p-20 bg-black">
         <nav className='flex items-center space-x-10'>
-          <ul className='flex space-x-40 font-tr2n font-extrabold'>
+          <ul className='flex space-x-40 font-tr2n font-extrabold text-sky-400/100'>
             <Link to="/HomePage" className="hover:scale-110">Home</Link>
-            <Link to="/Portfolio" className="hover:scale-110">Portfolio</Link>
+            <Link to="/Project" className="hover:scale-110">Projects</Link>
             <Link to="/About" className="hover:scale-110">About</Link>
             <Link to="/Contact" className="hover:scale-110">Contact</Link>
           </ul>

@@ -11,13 +11,13 @@ function ContactForm() {
     }
 
     return (
-        <div className="bg-sky-900">
+        <div className="bg-black">
             <Home />
             <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
                 <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Me</h2>
                 <form className="space-y-8" onSubmit={handleSubmit} method="POST">
                     <div>
-                        <label htmlFor="name" className="block mb-2 font-tr2n font-extrabold">Name</label>
+                        <label htmlFor="name" className="block mb-2 font-tr2n font-extrabold text-sky-400/100">Name</label>
                         <input 
                             type="text" 
                             id="name" 
@@ -28,7 +28,7 @@ function ContactForm() {
                         />
                     </div>
                     <div>
-                        <label htmlFor="email" className="block mb-2 font-tr2n">Your email</label>
+                        <label htmlFor="email" className="block mb-2 font-tr2n text-sky-400/100">Your email</label>
                         <input 
                             type="email" 
                             id="email" 
@@ -44,7 +44,7 @@ function ContactForm() {
                         errors={state.errors}
                     />
                     <div className="sm:col-span-2">
-                        <label htmlFor="message" className="block mb-2 font-tr2n">Your message</label>
+                        <label htmlFor="message" className="block mb-2 font-tr2n text-sky-400/100">Your message</label>
                         <textarea 
                             id="message" 
                             name="message" 
