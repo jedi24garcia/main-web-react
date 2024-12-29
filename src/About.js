@@ -22,7 +22,7 @@ function About() {
             <div className='item-body px-60 py-10'>
                 <h1 className='mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white'>about</h1>
                 <p className='item-body py-5 font-tr2n'>Hello there,<br />
-                    A dedicated programmer living in Auckland, New Zealand.<br />
+                    I'm a dedicated programmer living in Auckland, New Zealand.<br />
                     Beyond of the world of coding, I love to explore new places and cultures,<br />
                     which combines my love for traveling with a curiosity of learning.<br />
                     I always seek new adventures in both my career and personal life.
