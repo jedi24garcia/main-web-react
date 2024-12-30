@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Home from './main';
-import FooterPage from './Footer';
+import Home from './HeaderPage';
+import FooterPage from './FooterPage';
 
 import consoleImage from './/images/consoles.jpg';
 import firstProject from './/images/mainbg.webp';

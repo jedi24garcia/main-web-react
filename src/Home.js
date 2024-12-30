@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Home from './main';
-import FooterPage from './Footer';
+import HeaderPage from './HeaderPage';
+import FooterPage from './FooterPage';
 
 import profileImage from './/images/profile.jpg';
 
-function HomePage() {
+function Home() {
     return (
         <div>
-            <Home />
+            <HeaderPage />
                 <div className='context flex p-10 bg-black'>
                     <img src={profileImage} className="object-cover rounded-lg hover:scale-110 transform transition duration-500" style={{ width: '400px' }} alt='' /> 
                     <div className='item-body px-20'>  
@@ -20,4 +20,4 @@ function HomePage() {
     );
 };
 
-export default HomePage;
+export default Home;

@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Home() {
+function HeaderPage() {
   return (
     <>
       <header className="flex justify-between items-center p-20 bg-black">
         <nav className='flex items-center space-x-10'>
           <ul className='flex space-x-40 font-tr2n font-extrabold text-sky-400/100'>
-            <Link to="/HomePage" className="hover:scale-110">Home</Link>
+            <Link to="/Home" className="hover:scale-110">Home</Link>
             <Link to="/Project" className="hover:scale-110">Projects</Link>
             <Link to="/About" className="hover:scale-110">About</Link>
             <Link to="/Contact" className="hover:scale-110">Contact</Link>
@@ -68,4 +68,4 @@ function Home() {
   );
 };
 
-export default Home;
+export default HeaderPage;

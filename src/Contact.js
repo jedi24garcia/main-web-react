@@ -1,8 +1,8 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
-import Home from './main';
-import FooterPage from './Footer';
+import Home from './HeaderPage';
+import FooterPage from './FooterPage';
 
 function ContactForm() {
     const [state, handleSubmit] = useForm('mdkovypl');
