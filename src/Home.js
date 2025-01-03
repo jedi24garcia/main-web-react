@@ -1,5 +1,6 @@
 import React from 'react';
 
+import './Home.css';
 import HeaderPage from './HeaderPage';
 import FooterPage from './FooterPage';
 
@@ -14,6 +15,19 @@ function Home() {
                     <div className='item-body px-20'>  
                         <p className='font-tr2n text-sky-400/100'><b>&lt;</b> This is my personal website. Please feel free to look around and enjoy! 😊 <b>&gt;</b></p>   
                     </div>
+                    <section class="grid-container">
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div> 
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div>
+                        <div class="grid-line"></div>
+                    </section>
                 </div>   
             <FooterPage />
         </div>
