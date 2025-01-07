@@ -31,6 +31,14 @@ function Project() {
                         in progress.
                     </p>
                 </section>
+                <section className='item-body w-1/2 px-5'>
+                    <h2 className='mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white'>School_Database</h2>
+                    <a href='https://github.com/jedi24garcia/School_Database' rel=''>
+                        <img src={consoleImage} className="w-full aspect-video object-cover rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" alt='' />
+                    </a>
+                    <p className='py-10 font-tr2n text-sky-400/100'>Designed and developed a menu driven console-based Python application.
+                    </p>
+                </section>
             </div>
             <FooterPage />
         </div>
