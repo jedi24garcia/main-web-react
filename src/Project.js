@@ -16,14 +16,14 @@ function Project() {
             </p>
             <div className='flex justify-between px-60 py-10'>
                 <section className='item-body w-1/2 px-5'>
-                    <h2 className='mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white'>FitnessMate App</h2>
+                    <h2 className='mb-4 text-2xl tracking-tight font-extrabold text-gray-900 text-sky-400/100'>FitnessMate App</h2>
                     <a href='https://github.com/jedi24garcia/Fitness-App/tree/master' rel=''>
                         <img src={firstProject} className="w-full aspect-video object-cover rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" alt='' />
                     </a>
                     <p className='py-10 font-tr2n text-sky-400/100'>This is a mobile application using React-Native to guide individuals who are just starting out at the gym!</p>
                 </section>
                 <section className='item-body w-1/2 px-5'>
-                    <h2 className='mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white'>Robotech</h2>
+                    <h2 className='mb-4 text-2xl tracking-tight font-extrabold text-gray-900 text-sky-400/100'>Robotech</h2>
                     <a href='https://github.com/jedi24garcia/robotech/blob/master/airobo/self.py' rel=''>
                         <img src={consoleImage} className="w-full aspect-video object-cover rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" alt='' />
                     </a>
@@ -32,7 +32,7 @@ function Project() {
                     </p>
                 </section>
                 <section className='item-body w-1/2 px-5'>
-                    <h2 className='mb-4 text-2xl tracking-tight font-extrabold text-gray-900 dark:text-white'>School_Database</h2>
+                    <h2 className='mb-4 text-2xl tracking-tight font-extrabold text-gray-900 text-sky-400/100'>School_Database</h2>
                     <a href='https://github.com/jedi24garcia/School_Database' rel=''>
                         <img src={consoleImage} className="w-full aspect-video object-cover rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" alt='' />
                     </a>

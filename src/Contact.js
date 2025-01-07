@@ -14,7 +14,7 @@ function ContactForm() {
         <div className="bg-black">
             <Home />
             <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Me</h2>
+                <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 text-sky-400/100">Contact Me</h2>
                 <form className="space-y-8" onSubmit={handleSubmit} method="POST">
                     <div>
                         <label htmlFor="name" className="block mb-2 font-tr2n font-extrabold text-sky-400/100">Name</label>
