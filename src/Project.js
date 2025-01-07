@@ -27,7 +27,7 @@ function Project() {
                     <a href='https://github.com/jedi24garcia/robotech/blob/master/airobo/self.py' rel=''>
                         <img src={consoleImage} className="w-full aspect-video object-cover rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" alt='' />
                     </a>
-                    <p className='py-10 font-tr2n text-sky-400/100'>A Python program that lets the user use their voice to open a web browser. When a user say something like 'open Google' or 'open Youtube,' it listens, recognizes the command, and opens up the browser to the website they've asked for. It is still a work
+                    <p className='py-10 font-tr2n text-sky-400/100'>A Python program that lets the user use their voice to open a web browser using Speech-Recognition. When a user say something like 'open Google' or 'open Youtube,' it listens, recognizes the command, and opens up the browser to the website they've asked for. It is still a work
                         in progress.
                     </p>
                 </section>
