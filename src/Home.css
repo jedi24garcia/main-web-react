@@ -19,6 +19,7 @@
 #canvas {
   animation:canvasspin 10s ease forwards,
             moveback 10s ease forwards 10s;
+  z-index: -1;
 }
 
 @keyframes canvasspin {

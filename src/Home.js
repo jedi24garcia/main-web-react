@@ -9,7 +9,7 @@ import profileImage from './/images/profile.jpg';
 function Home() {
     useEffect(() => {
         let canvas = document.querySelector('#canvas');
-        let ctx = canvas.getContext('2d');
+        let content = canvas.getContext('2d');
         canvas.width = window.innerWidth * 2;
         canvas.height = window.innerHeight;
 
@@ -23,11 +23,11 @@ function Home() {
                     this.y -= 1;
             },
             drawLine: function(x, y) {
-                ctx.beginPath();
-                ctx.strokeStyle = this.color;
-                ctx.moveTo(x, y);
-                ctx.lineTo(x, y-1); 
-                ctx.stroke();
+                content.beginPath();
+                content.strokeStyle = this.color;
+                content.moveTo(x, y);
+                content.lineTo(x, y-1); 
+                content.stroke();
             },
             draw: function () {
                 // grid lines Y
@@ -47,11 +47,11 @@ function Home() {
                     this.x += 2;
             },
             drawLine: function(x, y) {
-                ctx.beginPath();
-                ctx.strokeStyle = this.color;
-                ctx.moveTo(x, y);
-                ctx.lineTo(x + 2, y);
-                ctx.stroke();
+                content.beginPath();
+                content.strokeStyle = this.color;
+                content.moveTo(x, y);
+                content.lineTo(x + 2, y);
+                content.stroke();
             },
             draw: function() {
                 // grid lines X
@@ -85,17 +85,19 @@ function Home() {
     return (
         <div>
             <HeaderPage />
-                <div className='context flex p-10 bg-black'>
+                {/* <div className='context flex p-10 bg-black'>
                     <img src={profileImage} className="object-cover rounded-full hover:scale-110 transform transition duration-500" style={{ width: '400px' }} alt='' /> 
                     <div id="logo" className='item-body px-20'>Welcome!</div>
-                </div>
+                </div> */}
                 <div id="screen-container">
                     <canvas id="canvas"></canvas>
-                    
+                    <div className='context flex p-10 bg-black'>
+                        <img src={profileImage} className="object-cover rounded-full hover:scale-110 transform transition duration-500" style={{ width: '400px' }} alt='' /> 
+                        <div id="logo" className='item-body px-20'>Welcome!</div>
+                    </div>
                     <div class="blue cyclotron"></div>
                     <div class="skyblue cyclotron"></div>
                     <div class="greetings">Hello, User!</div>
-                
                 </div>   
             <FooterPage />
         </div>
