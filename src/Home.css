@@ -85,9 +85,9 @@
   width:100%;
   text-align:center;
   bottom:127px;
-  font-family:'Press Start 2P';
+  font-family:'Tron';
   font-size:42px;
-  color:#FFF;
+  color:#38bdf8;
   z-index:5;
   animation:blink 2s linear infinite 25s;
   opacity:0;
