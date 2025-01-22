@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600|Press+Start+2P');
+
+@font-face {
+  font-family: 'Tron';
+  src: url('https://rawgit.com/ManzDev/codevember2017/master/assets/tron.woff'),
+       url('https://rawgit.com/ManzDev/codevember2017/master/assets/tron.ttf');
+}
+
+#logo {
+    text-align: center;
+    font-family: Tron;
+    font-size: 72px;  
+    color: #38bdf8;
+    filter: drop-shadow(0 0 5px #16abaf);
+}
