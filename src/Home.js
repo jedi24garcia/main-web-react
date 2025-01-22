@@ -4,15 +4,34 @@ import './Home.css';
 import HeaderPage from './HeaderPage';
 import FooterPage from './FooterPage';
 
-import profileImage from './/images/profile.jpg';
-
 function Home() {
     return (
         <div>
             <HeaderPage />
                 <div className='context flex p-10 bg-black'>
-                    <img src={profileImage} className="object-cover rounded-full hover:scale-110 transform transition duration-500" style={{ width: '400px' }} alt='' /> 
                     <div id="logo" className='item-body px-20'>Welcome!</div>  
+                </div>
+                <div id="tron-cycle"> 
+                <div id="object">
+                    <div id="inner-obj">
+                    <div class="rider head parts"></div>
+                    <div class="rider body parts"></div>
+                    <div class="rider thigh parts"></div>
+                    <div class="rider rider-leg parts"></div>
+                    <div class="bike-body parts">
+                        <div class="stripe one"></div>
+                        <div class="stripe two"></div>
+                        <div class="stripe three"></div>
+                    </div>
+                    <div class="wheel front parts">
+                        <div></div>
+                    </div>
+                    <div class="wheel back parts">
+                        <div></div>
+                    </div>
+                    </div>
+                </div>
+                <div id="road"></div>
                 </div>
             <FooterPage />
         </div>

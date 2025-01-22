@@ -4,7 +4,7 @@ import Home from './HeaderPage';
 import FooterPage from './FooterPage';
 import './About.css';
 
-import aboutImage from './/images/Image.jpg';
+import profileImage from './/images/profile.jpg';
 import cookImage from './/images/Image.jpg';
 import boholImage from './/images/Bohol.jpg';
 import carImage from './/images/Car.jpg';
@@ -28,7 +28,7 @@ function About() {
                 </p>
             </div>
             <div className='flex justify-center items-center mb-12'>
-                <img src={aboutImage} className="object-cover opacity-75 rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" style={{ width: '400px' }} alt='' />
+                <img src={profileImage} className="object-cover opacity-75 rounded-lg hover:scale-110 transform transition duration-500 border-4 border-cyan-400" style={{ width: '400px' }} alt='' />
             </div>
             <p className='item-body px-60 font-tr2n text-sky-400/100'>I've had the privilege of exploring some incredible destinations, each one leveling<br />
                 its unique mark on my journey. From breathtaking landscapes to rich cultural experiences, traveling has been
