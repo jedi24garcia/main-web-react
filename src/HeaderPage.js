@@ -6,7 +6,7 @@ function HeaderPage() {
     <>
       <header className="flex justify-between items-center p-20 bg-black">
         <nav className='flex items-center space-x-10'>
-          <ul className='flex space-x-40 font-tr2n font-extrabold text-sky-400/100'>
+          <ul className='flex space-x-40 font-tr2n font-extrabold text-sky-400/100 text-xl md:text-2xl lg:text-3xl'>
             <Link to="/Home" className="hover:scale-110">Home</Link>
             <Link to="/Project" className="hover:scale-110">Projects</Link>
             <Link to="/About" className="hover:scale-110">About</Link>

@@ -13,7 +13,7 @@ function Home() {
                 </div>
                 <div id="tron-cycle"> 
                 <div id="object">
-                    <div id="inner-obj">
+                    <div id="inside-object">
                     <div class="rider head parts"></div>
                     <div class="rider body parts"></div>
                     <div class="rider thigh parts"></div>

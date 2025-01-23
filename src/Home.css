@@ -30,7 +30,7 @@
 	animation: move 5s linear infinite;
 }
 
-#object #inner-obj{
+#object #inside-object{
 	width: 200px; height: 100px;
 	position: relative;
 	top: 10px; left: 10px;
