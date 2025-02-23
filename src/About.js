@@ -21,7 +21,7 @@ function About() {
             <Home />            
             <div className='item-body px-60 py-5'>
                 <p className='item-body py-5 font-medium text-sky-400/100'>Hello there,<br />
-                    I'm an IT geek/programmer currently living in Auckland, New Zealand. I used
+                    I'm an IT enthusiast/programmer currently living in Auckland, New Zealand. I used
                     to live in Wellington, but the bigger city is calling me so here I am 🤷<br />
                     Beyond of the world of programming, I love to explore new places and cultures,
                     which combines my love for traveling with a curiosity of learning.<br />
