@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build --repo https://github.com/jedi24garcia/main_web_react.git"
   },
   "eslintConfig": {
     "extends": [
