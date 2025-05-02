@@ -2,7 +2,7 @@
   "name": "whaiaroweb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jedi24garcia.github.io/main_web_react/",
+  "homepage": "https://jedi24garcia.github.io/main-web-react/",
   "dependencies": {
     "@formspree/react": "^2.5.1",
     "@testing-library/jest-dom": "^5.17.0",
@@ -24,7 +24,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --repo https://github.com/jedi24garcia/main_web_react.git"
+    "deploy": "gh-pages -d build --repo https://github.com/jedi24garcia/main-web-react.git"
   },
   "eslintConfig": {
     "extends": [
