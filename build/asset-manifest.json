@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/main-web-react/static/css/main.d2333967.css",
+    "main.js": "/main-web-react/static/js/main.14cddf6e.js",
+    "static/js/453.c22a51f2.chunk.js": "/main-web-react/static/js/453.c22a51f2.chunk.js",
+    "static/media/Bohol.jpg": "/main-web-react/static/media/Bohol.62416e5c24581a09df79.jpg",
+    "static/media/Car.jpg": "/main-web-react/static/media/Car.6bab40aac92a892307d5.jpg",
+    "static/media/NYC.jpg": "/main-web-react/static/media/NYC.a829e746fb433f67cd86.jpg",
+    "static/media/Sea.jpg": "/main-web-react/static/media/Sea.9dd9c27495c08da79120.jpg",
+    "static/media/Shibuya.jpg": "/main-web-react/static/media/Shibuya.f08f809b1c55fa1daceb.jpg",
+    "static/media/school.jpg": "/main-web-react/static/media/school.e0e0976640abfb720612.jpg",
+    "static/media/Ruapehu.jpg": "/main-web-react/static/media/Ruapehu.1548dfdd8e889b7f3ede.jpg",
+    "static/media/Image.jpg": "/main-web-react/static/media/Image.1cb19494d8de15cbf7c4.jpg",
+    "static/media/Universal.jpg": "/main-web-react/static/media/Universal.48ee2cd13818ed7992cf.jpg",
+    "static/media/Makara.jpg": "/main-web-react/static/media/Makara.031e955b2cf046ff5e9d.jpg",
+    "static/media/profile.jpg": "/main-web-react/static/media/profile.25f42fed193d69af3a47.jpg",
+    "static/media/Tr2n.ttf": "/main-web-react/static/media/Tr2n.816da8bdbd132e36b133.ttf",
+    "static/media/pacific.JPG": "/main-web-react/static/media/pacific.c751578854f7f2dcfd3c.JPG",
+    "static/media/mainbg.webp": "/main-web-react/static/media/mainbg.437b136cc74e6bfe4272.webp",
+    "index.html": "/main-web-react/index.html",
+    "main.d2333967.css.map": "/main-web-react/static/css/main.d2333967.css.map",
+    "main.14cddf6e.js.map": "/main-web-react/static/js/main.14cddf6e.js.map",
+    "453.c22a51f2.chunk.js.map": "/main-web-react/static/js/453.c22a51f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2333967.css",
+    "static/js/main.14cddf6e.js"
+  ]
+}
