@@ -12,13 +12,13 @@ function App() {
     <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Home" element={<Home />} />
-        <Route path="/About" element={<About />} />
-        <Route path="/Project" element={<Project />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </HashRouter>
   );
 };
 
 export default App;
+
