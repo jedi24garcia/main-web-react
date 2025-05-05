@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/main-web-react/static/css/main.d2333967.css",
-    "main.js": "/main-web-react/static/js/main.da4e7a2a.js",
+    "main.js": "/main-web-react/static/js/main.410eb201.js",
     "static/js/453.c22a51f2.chunk.js": "/main-web-react/static/js/453.c22a51f2.chunk.js",
     "static/media/Bohol.jpg": "/main-web-react/static/media/Bohol.62416e5c24581a09df79.jpg",
     "static/media/Car.jpg": "/main-web-react/static/media/Car.6bab40aac92a892307d5.jpg",
@@ -19,11 +19,11 @@
     "static/media/mainbg.webp": "/main-web-react/static/media/mainbg.437b136cc74e6bfe4272.webp",
     "index.html": "/main-web-react/index.html",
     "main.d2333967.css.map": "/main-web-react/static/css/main.d2333967.css.map",
-    "main.da4e7a2a.js.map": "/main-web-react/static/js/main.da4e7a2a.js.map",
+    "main.410eb201.js.map": "/main-web-react/static/js/main.410eb201.js.map",
     "453.c22a51f2.chunk.js.map": "/main-web-react/static/js/453.c22a51f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2333967.css",
-    "static/js/main.da4e7a2a.js"
+    "static/js/main.410eb201.js"
   ]
 }
