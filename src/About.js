@@ -4,7 +4,7 @@ import Home from './HeaderPage';
 import FooterPage from './FooterPage';
 import './About.css';
 
-import profileImage from './/images/profile.jpg';
+import profileImage from './/images/me.jpeg';
 import cookImage from './/images/Image.jpg';
 import boholImage from './/images/Bohol.jpg';
 import carImage from './/images/Car.jpg';
