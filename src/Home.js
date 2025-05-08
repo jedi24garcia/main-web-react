@@ -33,6 +33,7 @@ function Home() {
                 </div>
                 <div id="road"></div>
                 </div>
+                <div className="py-20"></div>
             <FooterPage />
         </div>
     );
