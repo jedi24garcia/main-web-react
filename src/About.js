@@ -22,11 +22,10 @@ function About() {
             <div className='flex items-center justify-center px-4'>
                 <div className="px-6 py-5 text-center">
                     <p className='item-body font-medium text-sky-400/100'>Hello there,<br />
-                        I'm an IT enthusiast/programmer currently living in Auckland, New Zealand. I used
-                        to live in Wellington, but the bigger city is calling me so here I am 🤷<br />
-                        Beyond of the world of programming, I love to explore new places and cultures,
-                        which combines my love for traveling with a curiosity of learning.<br />
-                        I always seek new adventures in both my career and personal life.
+                        I'm a programmer living in Wellington who loves to code, create, and build applications 🤷<br />
+                        Beyond the world of programming, I love to explore new places and cultures,<br />
+                        combining my passion for traveling with a curiosity of learning.<br />
+                        I'm always seeking new adventures in both my career and personal life.
                     </p>
                 </div>
             </div>
