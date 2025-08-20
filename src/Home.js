@@ -7,10 +7,11 @@ import FooterPage from './FooterPage';
 function Home() {
     return (
         <div>
-            <HeaderPage />
-                <div className='context flex p-10 bg-black'>
-                    <div id="logo" className='item-body px-20'>Welcome!</div>  
-                </div>
+        <HeaderPage />
+            <div className='context flex justify-center items-center p-4 bg-black'>
+                <div id="logo" className='item-body px-20 hover:scale-110 transform transition duration-500'>Welcome!</div>  
+            </div>
+            <div className="border-4 border-cyan border border-sky-400 shadow-[0_0_15px_rgba(56,189,248,0.7)] max-w-6xl mx-auto mt-5 p-5">
                 <div id="tron-cycle"> 
                 <div id="object">
                     <div id="inside-object">
@@ -34,6 +35,7 @@ function Home() {
                 <div id="road"></div>
                 </div>
                 <div className="py-20"></div>
+            </div>
             <FooterPage />
         </div>
     );
